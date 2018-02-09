@@ -12,4 +12,8 @@ starterbot_id = None
 
 #Constants
 RTM_READ_DELAY = 1 #1 second delay when reading the RTM
+EXAMPLE_COMMAND = "do"
+MENTION_REGEX = "<@([WU].+?).(.*)>"
+
+#This is where we instantiate the cliend id
 
