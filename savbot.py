@@ -5,7 +5,7 @@ import re
 from slackclient import SlackClient
 
 #Lets instantiate the slack variable
-slack_client = SlackClient(os.environ.get(SLACK_USER_TOKEN))
+##slack_client = SlackClient(os.environ.get(SLACK_USER_TOKEN))
 
 #This is the bot's user id that is on the slack API. THis value is assigned when the bot starts up
 starterbot_id = None
@@ -16,4 +16,3 @@ EXAMPLE_COMMAND = "do"
 MENTION_REGEX = "<@([WU].+?).(.*)>"
 
 #This is where we instantiate the cliend id
-
